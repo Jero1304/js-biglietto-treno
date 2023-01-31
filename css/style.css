@@ -2,24 +2,29 @@ main{
     height: 100vh;
 }
 
-header{
-    height: 10vh;
+.logo >img{
+    width: 80px;
 }
 
-
-.logo{
-    width: 200px;
+.main-title{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
-main .col{
-    font-size: 14px;
-    padding: 20;
-    border: 2px solid gray;
-    background-color: aliceblue;
+.card >img{
+    max-width: 170px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.card{
+    margin: 0 auto;
+}
+
+.info-js > .col{
+    padding-bottom: 6px;
     display: flex;
-    justify-content: center;
-}
-
-.container{
-    padding-top: 30px;
+    justify-content: end;
 }
