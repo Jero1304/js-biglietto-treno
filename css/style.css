@@ -1,0 +1,25 @@
+main{
+    height: 100vh;
+}
+
+header{
+    height: 10vh;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+main .col{
+    font-size: 14px;
+    padding: 20;
+    border: 2px solid gray;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding-top: 30px;
+}
